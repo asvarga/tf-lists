@@ -1,0 +1,13 @@
+digraph G {
+  splines=true;
+  node [shape=circle, style=filled, label=""];
+  n_0_0 	[pos="0,0!", fillcolor=white];
+  n_1_1 	-> n_0_0;
+  n_1_1 	[pos="-50,50!", fillcolor=grey];
+  n_2_0 	-> n_1_1;
+  n_2_0 	[pos="-100,0!", fillcolor=white];
+  n_3_1 	-> n_2_0;
+  n_3_1 	[pos="-150,50!", fillcolor=grey];
+  n_4_0 	-> n_3_1;
+  n_4_0 	[pos="-200,0!", fillcolor=white];
+}

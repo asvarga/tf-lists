@@ -1,0 +1,29 @@
+digraph G {
+  splines=true;
+  node [shape=circle, style=filled, label=""];
+  n_0_0 	[pos="0,0!", fillcolor=white];
+  n_1_1 	-> n_0_0;
+  n_1_1 	[pos="-50,50!", fillcolor=grey];
+  n_2_0 	-> n_1_1;
+  n_2_0 	[pos="-100,0!", fillcolor=white];
+  n_3_1 	-> n_2_0;
+  n_3_1 	[pos="-150,50!", fillcolor=grey];
+  n_4_2 	-> n_3_1;
+  n_4_2 	[pos="-200,100!", fillcolor=grey];
+  n_5_1 	-> n_4_2;
+  n_5_1 	[pos="-250,50!", fillcolor=grey];
+  n_6_0 	-> n_5_1;
+  n_6_0 	[pos="-300,0!", fillcolor=white];
+  n_7_1 	-> n_4_2 [style=dotted];
+  n_7_1 	-> n_6_0 [penwidth=3];
+  n_7_1 	[pos="-350,50!", fillcolor=grey];
+  n_7_1b 	[pos="-350,50!", penwidth=3];
+  n_8_0 	-> n_7_1 [penwidth=3];
+  n_8_0 	[pos="-400,0!", fillcolor=white, penwidth=3, label=L];
+  n_9_1 	-> n_4_2 [style=dotted];
+  n_9_1 	-> n_8_0 [style=dashed, arrowhead=empty];
+  n_9_1 	[pos="-450,50!", fillcolor=grey, color=white];
+  n_9_1b 	[pos="-450,50!", style=dashed];
+  n_10_0 	-> n_9_1 [style=dashed, arrowhead=empty];
+  n_10_0 	[pos="-500,0!", fillcolor=white, style=dashed];
+}

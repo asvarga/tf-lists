@@ -1,0 +1,36 @@
+digraph G {
+  splines=true;
+  node [shape=circle, style=filled, label=""];
+  n_0_0 	[pos="0,0!", fillcolor=white];
+  n_1_1 	-> n_0_0;
+  n_1_1 	[pos="-50,50!", fillcolor=grey];
+  n_2_0 	-> n_1_1;
+  n_2_0 	[pos="-100,0!", fillcolor=white];
+  n_3_1 	-> n_2_0;
+  n_3_1 	[pos="-150,50!", fillcolor=grey];
+  n_4_0 	-> n_3_1;
+  n_4_0 	[pos="-200,0!", fillcolor=white];
+  n_5_1 	-> n_4_0;
+  n_5_1 	[pos="-250,50!", fillcolor=grey];
+  n_6_2 	-> n_5_1;
+  n_6_2 	[pos="-300,100!", fillcolor=grey];
+  n_7_1 	-> n_6_2;
+  n_7_1 	[pos="-350,50!", fillcolor=grey];
+  n_8_0 	-> n_7_1;
+  n_8_0 	[pos="-400,0!", fillcolor=white];
+  n_9_1 	-> n_6_2;
+  n_9_1 	-> n_8_0;
+  n_9_1 	[pos="-450,50!", fillcolor=grey];
+  n_10_0 	-> n_9_1;
+  n_10_0 	[pos="-500,0!", fillcolor=white];
+  n_11_1 	-> n_6_2;
+  n_11_1 	-> n_10_0;
+  n_11_1 	[pos="-550,50!", fillcolor=grey];
+  n_12_0 	-> n_11_1;
+  n_12_0 	[pos="-600,0!", fillcolor=white];
+  n_13_1 	-> n_6_2;
+  n_13_1 	-> n_12_0;
+  n_13_1 	[pos="-650,50!", fillcolor=grey];
+  n_14_0 	-> n_13_1;
+  n_14_0 	[pos="-700,0!", fillcolor=white];
+}
